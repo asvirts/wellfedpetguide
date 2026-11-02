@@ -3,10 +3,24 @@ import { PageShell } from "../../src/components/PageShell";
 import { staticPages } from "../../src/site";
 import type { ArticleCard } from "../../src/types";
 
+const plannedDogTopics = [
+  "Best Dog Food for Picky Eaters (clusters with Dog Not Eating)",
+  "Best Dog Food for Sensitive Stomachs",
+  "Best Dog Food for Allergies & Elimination Trials",
+  "Best Dog Food for Sensitive Stomach and Diarrhea",
+  "Puppy Food for Sensitive Stomachs",
+  "Best Puppy Food for Large Breeds (Calcium & growth curve rules)",
+  "Best Senior Dog Food",
+  "Grain-Free vs. Grain-Inclusive Dog Food (FDA DCM background)",
+  "Raw Diet for Dogs: A Beginner's Guide (AVMA pathogen policy)",
+  "Best Freeze-Dried Raw Dog Food",
+];
+
 export default function DogsPage({ articles }: { articles: ArticleCard[] }) {
   const page = staticPages.dogs;
   return (
     <PageShell
+      kicker="Cluster 01 · Canine Digestion & Label Audits"
       h1={page.h1}
       lede="This cluster is about what goes in the bowl when something is already wrong: loose stool, a dog that will not eat, and foods that do not clear a basic label check."
       crumbs={[
@@ -16,6 +30,7 @@ export default function DogsPage({ articles }: { articles: ArticleCard[] }) {
     >
       <h2>What is published</h2>
       <GuideList articles={articles} />
+
       <h2>How the cluster fits together</h2>
       <p>
         A short bout of diarrhea and a dog that skips meals are often the same story told from two
@@ -26,15 +41,22 @@ export default function DogsPage({ articles }: { articles: ArticleCard[] }) {
         marketing claim.
       </p>
       <p>
-        Later guides in this cluster will cover picky eaters, sensitive stomachs, allergies,
-        puppies, seniors, raw and freeze-dried foods, and grain-free diets. They are listed in the
-        content plan and are not linked until the drafts exist, so this hub does not send you to an
-        empty URL.
-      </p>
-      <p>
         None of these pages replace a clinic. Blood in the stool, repeated vomiting, a puppy, or a
         dog that is weak belongs on the phone with a veterinarian, not in a shopping tab.
       </p>
+
+      <h2>Planned guides in this cluster (not yet published)</h2>
+      <p>
+        Later guides in this cluster will cover picky eaters, sensitive stomachs, allergies,
+        puppies, seniors, raw and freeze-dried foods, and grain-free diets. They are listed in the
+        content plan and are not linked until the drafts exist, so this hub does not send you to an
+        empty URL:
+      </p>
+      <ul>
+        {plannedDogTopics.map((topic) => (
+          <li key={topic}>{topic}</li>
+        ))}
+      </ul>
     </PageShell>
   );
 }

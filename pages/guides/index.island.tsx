@@ -5,16 +5,24 @@ import type { ArticleCard } from "../../src/types";
 
 export default function GuidesPage({ articles }: { articles: ArticleCard[] }) {
   const page = staticPages.guides;
+  const dogs = articles.filter((a) => a.category === "dogs");
+  const cats = articles.filter((a) => a.category === "cats");
+
   return (
     <PageShell
+      kicker="Complete Publication Index · Issue 01"
       h1={page.h1}
-      lede="Five guides are drafted. The rest of the plan is mapped on the topic clusters for dog food problems and litter boxes, and new articles will land on this index."
+      lede="Five guides are drafted and live. Each monograph exceeds 1,500 words, cites primary veterinary and regulatory publications, and marks product examples for verification."
       crumbs={[
         { name: "Home", path: "/" },
         { name: "Guides", path: page.path },
       ]}
     >
-      <GuideList articles={articles} />
+      <h2>Canine digestion &amp; food label guides ({dogs.length})</h2>
+      <GuideList articles={dogs} />
+
+      <h2>Feline litter box &amp; elimination guides ({cats.length})</h2>
+      <GuideList articles={cats} />
     </PageShell>
   );
 }

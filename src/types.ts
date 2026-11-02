@@ -38,6 +38,9 @@ export type ArticleCard = {
   published: string;
   updated: string;
   primaryKeyword: string;
+  wordCount: number;
+  readingMinutes: number;
+  sourceCount: number;
 };
 
 export type Article = ArticleCard & {
@@ -50,5 +53,4 @@ export type Article = ArticleCard & {
   related: ArticleCard[];
   headings: Heading[];
   html: string;
-  wordCount: number;
 };

@@ -7,7 +7,7 @@ const security = [
   "Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()",
   "Cross-Origin-Opener-Policy: same-origin",
   "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload",
-  "Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; frame-ancestors 'none'; upgrade-insecure-requests",
+  "Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self' ws: wss:; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; frame-ancestors 'none'",
 ];
 
 export default defineConfig({

@@ -109,6 +109,8 @@ function loadArticles(): Article[] {
     const body = parsed.content.trim();
     const rendered = renderMarkdown(body);
     const wordCount = countWords(body);
+    const readingMinutes = Math.max(5, Math.round(wordCount / 220));
+    const sources = asSources(data.sources, slug);
     const kind = data.kind === "roundup" || data.kind === "guide" ? data.kind : null;
     if (!kind) throw new Error(`${slug}: kind must be guide or roundup`);
     drafts.push({
@@ -127,11 +129,13 @@ function loadArticles(): Article[] {
       takeaways: asStringList(data.takeaways, `${slug} takeaways`),
       products: asProducts(data.products, slug),
       faqs: asFaqs(data.faqs, slug),
-      sources: asSources(data.sources, slug),
+      sources,
       relatedSlugs: asStringList(data.related, `${slug} related`),
       headings: rendered.headings,
       html: rendered.html,
       wordCount,
+      readingMinutes,
+      sourceCount: sources.length,
     });
   }
   const cards = new Map<string, ArticleCard>();
@@ -147,6 +151,9 @@ function loadArticles(): Article[] {
       published: draft.published,
       updated: draft.updated,
       primaryKeyword: draft.primaryKeyword,
+      wordCount: draft.wordCount,
+      readingMinutes: draft.readingMinutes,
+      sourceCount: draft.sourceCount,
     });
   }
   return drafts
@@ -196,5 +203,8 @@ function toCard(article: Article): ArticleCard {
     published: article.published,
     updated: article.updated,
     primaryKeyword: article.primaryKeyword,
+    wordCount: article.wordCount,
+    readingMinutes: article.readingMinutes,
+    sourceCount: article.sourceCount,
   };
 }

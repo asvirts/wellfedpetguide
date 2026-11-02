@@ -22,14 +22,14 @@ vp build
 vp preview
 ```
 
-| Command | What it does |
-| --- | --- |
-| `vp install` | Installs dependencies with the repo's package manager. |
-| `vp dev` | Dev server, usually `http://127.0.0.1:5173`. |
-| `vp check` | Format, lint, and typecheck. |
-| `vp test` | Content and affiliate-link tests. |
-| `vp build` | Production build. HTML lands in `dist/client/`, plus `sitemap.xml`, `robots.txt`, `feed.xml`, and `_redirects`. |
-| `vp preview` | Serves that build locally. |
+| Command      | What it does                                                                                                    |
+| ------------ | --------------------------------------------------------------------------------------------------------------- |
+| `vp install` | Installs dependencies with the repo's package manager.                                                          |
+| `vp dev`     | Dev server, usually `http://127.0.0.1:5173`.                                                                    |
+| `vp check`   | Format, lint, and typecheck.                                                                                    |
+| `vp test`    | Content and affiliate-link tests.                                                                               |
+| `vp build`   | Production build. HTML lands in `dist/client/`, plus `sitemap.xml`, `robots.txt`, `feed.xml`, and `_redirects`. |
+| `vp preview` | Serves that build locally.                                                                                      |
 
 `package.json` scripts call the same binaries (`vp dev`, and so on). `vp build` is the Vite+ build. It is not `vp run build`.
 
@@ -118,12 +118,12 @@ Do not submit the domain to the HSTS preload list until every subdomain you care
 
 ## Layout of the repo
 
-| Path | Role |
-| --- | --- |
-| `content/articles/*.md` | Article source. |
-| `pages/` | Routes. `[slug]` renders every article. |
-| `src/site.ts` | Site name, author bio, contact email, static page copy. |
-| `src/seo.ts` | Titles, canonicals, Open Graph, JSON-LD. |
-| `void.config.ts` | Static output, headers, Cloudflare settings. |
+| Path                     | Role                                                              |
+| ------------------------ | ----------------------------------------------------------------- |
+| `content/articles/*.md`  | Article source.                                                   |
+| `pages/`                 | Routes. `[slug]` renders every article.                           |
+| `src/site.ts`            | Site name, author bio, contact email, static page copy.           |
+| `src/seo.ts`             | Titles, canonicals, Open Graph, JSON-LD.                          |
+| `void.config.ts`         | Static output, headers, Cloudflare settings.                      |
 | `scripts/seo-assets.mjs` | Sitemap, robots, RSS, and 301s, written at the end of `vp build`. |
-| `PROGRESS.md` | What is done and what is left. |
+| `PROGRESS.md`            | What is done and what is left.                                    |
