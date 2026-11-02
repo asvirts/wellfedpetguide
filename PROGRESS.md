@@ -21,7 +21,7 @@ Stack in the repo: Void pages app, React islands, Vite+ (`vp`), `output: 'static
 
 ## Left
 
-- `README.md` is still the one-line stub. It needs setup, `vp` commands, how to add an article, and Andrew's `void deploy` plus custom-domain steps. Also post-launch steps: Google Search Console, Bing Webmaster Tools, sitemap submit, Cloudflare Web Analytics.
+- `README.md` is written: setup, `vp` commands, adding an article, `void deploy`, custom domain, Search Console, Bing, and Cloudflare Web Analytics.
 - `CONTENT_PLAN.md` is not written. It should list all 20 articles and the Keyword Planner volumes from the uploaded TSV (the five drafts plus the 15 planned roundups).
 - `SEO_CHECKLIST.md` is not written. It should map each acceptance item to the file or config that meets it and include the Lighthouse scores above.
 - Dev server canonicalizes by stripping a trailing slash (Void). Production is set up for the opposite: `cloudflare.assets.html_handling` is `force-trailing-slash`, and the build writes 301s in `dist/client/_redirects`. That production path has not been deployed, so it is unverified on Cloudflare.
