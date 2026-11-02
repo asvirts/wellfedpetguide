@@ -21,9 +21,8 @@ Stack in the repo: Void pages app, React islands, Vite+ (`vp`), `output: 'static
 
 ## Left
 
-- `README.md` is written: setup, `vp` commands, adding an article, `void deploy`, custom domain, Search Console, Bing, and Cloudflare Web Analytics.
-- `CONTENT_PLAN.md` lists all 20 articles with Keyword Planner volume, competition, and bids. Fifteen are not drafted and are not linked.
-- `SEO_CHECKLIST.md` is not written. It should map each acceptance item to the file or config that meets it and include the Lighthouse scores above.
+- `README.md`, `CONTENT_PLAN.md`, and `SEO_CHECKLIST.md` are written. The checklist includes the Lighthouse scores from the local preview.
+- Fifteen articles in `CONTENT_PLAN.md` are not drafted and are not linked. Write them one file at a time under `content/articles/` when Andrew wants the next URL.
 - Dev server canonicalizes by stripping a trailing slash (Void). Production is set up for the opposite: `cloudflare.assets.html_handling` is `force-trailing-slash`, and the build writes 301s in `dist/client/_redirects`. That production path has not been deployed, so it is unverified on Cloudflare.
 - Product names are placeholders. Andrew still has to verify formulas and ASINs. No Amazon tag is set.
 - Screenshots were started for a pull request. The pull request was cancelled. Do not open one unless Andrew asks.
