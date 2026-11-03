@@ -6,7 +6,7 @@ summary: "Food for dogs with diarrhea should stay simple, low in fat, and tempor
 category: dogs
 kind: guide
 published: "2026-11-02"
-updated: "2026-11-02"
+updated: "2026-11-03"
 primaryKeyword: "what to feed a dog with diarrhea"
 heroAlt: "Abstract green and cream illustration of a shallow feeding bowl beside a folded towel."
 detailAlt: "Diagram of a three-day bland meal, a slow return to the usual food, and a line for calling the clinic."
@@ -40,6 +40,7 @@ products:
 related:
   - dog-food-brands-to-avoid
   - dog-not-eating
+  - dog-food-for-picky-eaters
 faqs:
   - question: "What should I feed a dog with diarrhea on the first day?"
     answer: "If the dog is bright, drinking, and the stool is soft rather than bloody, many clinics start with water plus a bland, low-fat meal such as plain boiled chicken and rice, or a veterinary gastrointestinal diet if they have already recommended one. A puppy, a weak dog, or a dog with blood in the stool needs the clinic first."
@@ -89,7 +90,7 @@ Change the meal only after you have decided the dog is stable enough to manage a
 
 The [Merck Veterinary Manual's owner introduction to digestive disorders](https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/introduction-to-digestive-disorders-of-dogs) is a plain map of how the gut fails. Dehydration is the part owners underestimate. A dog can look "a bit off" and already be behind on fluid, especially if vomiting and diarrhea arrive together.
 
-If your dog is also refusing the bowl entirely, read [dog not eating](/dog-not-eating/) alongside this page. Appetite loss plus diarrhea is a different phone call than one soft stool in a dog who still wants breakfast.
+If your dog is also refusing the bowl entirely, read [dog not eating](/dog-not-eating/) alongside this page. Appetite loss plus diarrhea is a different phone call than one soft stool in a dog who still wants breakfast. A healthy dog who is choosy on ordinary days, with normal stool, is a different article: [dog food for picky eaters](/dog-food-for-picky-eaters/). Leave that shopping list alone while the stool is still loose.
 
 ## What "mild" actually looks like
 

@@ -17,6 +17,12 @@ const triageItems = [
     href: "/dog-not-eating/",
   },
   {
+    tag: "Dogs · Choosy eater",
+    symptom: "Healthy dog who negotiates dinner",
+    detail: "Rule out illness, cap toppers at 10% of calories, then change one complete food.",
+    href: "/dog-food-for-picky-eaters/",
+  },
+  {
     tag: "Dogs · Label Audit",
     symptom: "Checking a dog food brand or bag",
     detail: "Inspect AAFCO adequacy, co-packer imprints, FDA DCM notes, and recall records.",
@@ -60,7 +66,7 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
           <dl className="hero-metrics" aria-label="Editorial standards summary">
             <div>
               <dt>Published Guides</dt>
-              <dd>5 monographs (1,500+ words each)</dd>
+              <dd>6 monographs (1,500+ words each)</dd>
             </div>
             <div>
               <dt>Primary Citations</dt>
@@ -117,7 +123,7 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
           <article className="cluster-card cluster-dogs">
             <div className="cluster-card-top">
               <span className="category-pill pill-dogs">Cluster 01 · Dogs</span>
-              <span className="cluster-count">3 Live Guides · 10 Planned</span>
+              <span className="cluster-count">4 Live Guides · 9 Planned</span>
             </div>
             <h2>Food for a specific problem</h2>
             <p>
@@ -134,6 +140,9 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
               </li>
               <li>
                 <a href="/dog-food-brands-to-avoid/">Dog Food Brands to Avoid</a>
+              </li>
+              <li>
+                <a href="/dog-food-for-picky-eaters/">Best Dog Food for Picky Eaters</a>
               </li>
             </ul>
             <a className="more" href="/dogs/">

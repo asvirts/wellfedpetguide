@@ -4,11 +4,12 @@ import { parse as parseYaml } from "yaml";
 
 const SITE = "https://wellfedpetguide.com";
 const UPDATED = "2026-11-02";
+const CONTENT_UPDATED = "2026-11-03";
 
 const staticPaths = [
-  { path: "/", lastmod: UPDATED },
-  { path: "/guides/", lastmod: UPDATED },
-  { path: "/dogs/", lastmod: UPDATED },
+  { path: "/", lastmod: CONTENT_UPDATED },
+  { path: "/guides/", lastmod: CONTENT_UPDATED },
+  { path: "/dogs/", lastmod: CONTENT_UPDATED },
   { path: "/cats/", lastmod: UPDATED },
   { path: "/about/", lastmod: UPDATED },
   { path: "/author/andrew-virts/", lastmod: UPDATED },
@@ -74,7 +75,8 @@ export function renderSeoFiles(root) {
       return `    <item><title>${escapeXml(article.title)}</title><link>${escapeXml(link)}</link><guid isPermaLink="true">${escapeXml(link)}</guid><pubDate>${rfc822(article.published)}</pubDate><description><![CDATA[${article.description.replaceAll("]]>", "]]]]><![CDATA[>")}]]></description></item>`;
     })
     .join("\n");
-  const feed = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>WellFed Pet Guide</title><link>${SITE}/</link><description>Guides to dog food problems and cat litter boxes.</description><language>en-us</language><lastBuildDate>${rfc822(UPDATED)}</lastBuildDate>\n${items}\n</channel></rss>\n`;
+  const newest = pages.reduce((max, page) => (page.lastmod > max ? page.lastmod : max), UPDATED);
+  const feed = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>WellFed Pet Guide</title><link>${SITE}/</link><description>Guides to dog food problems and cat litter boxes.</description><language>en-us</language><lastBuildDate>${rfc822(newest)}</lastBuildDate>\n${items}\n</channel></rss>\n`;
   const redirects = ["/index.html  /  301"];
   for (const page of pages) {
     if (page.path === "/") continue;

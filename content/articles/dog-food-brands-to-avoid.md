@@ -6,7 +6,7 @@ summary: "The brands to avoid are the ones that hide the basics: no nutritional 
 category: dogs
 kind: roundup
 published: "2026-11-02"
-updated: "2026-11-02"
+updated: "2026-11-03"
 primaryKeyword: "dog food brands to avoid"
 heroAlt: "Abstract illustration of a pet food label with a dark green rule and a blank checklist."
 detailAlt: "Diagram of three label checks: nutritional adequacy statement, manufacturer contact, and a named life stage."
@@ -40,6 +40,7 @@ products:
 related:
   - dog-food-for-diarrhea
   - dog-not-eating
+  - dog-food-for-picky-eaters
 faqs:
   - question: "What dog food brands should I avoid?"
     answer: "Avoid foods that lack an AAFCO nutritional adequacy statement for your dog's life stage, foods from companies that will not say who formulates them, and any bag involved in an active recall of the lot you own. A brand name alone is a weak reason to quit a food that your dog does well on."
@@ -123,7 +124,7 @@ AVMA policy on [raw or undercooked animal-source proteins](https://www.avma.org/
 
 ## What to buy instead
 
-Buy a food that passes the checks above and that your dog can actually eat. The AAHA [nutrition and weight management guidelines](https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/) treat a nutritional assessment as part of a regular visit: body condition, muscle, the actual diet, and the calories. A perfect label fed at the wrong amount is still the wrong plan.
+Buy a food that passes the checks above and that your dog can actually eat. A healthy dog who is merely choosy is a different shopping job, covered in [dog food for picky eaters](/dog-food-for-picky-eaters/). The label checks on this page still come first. The AAHA [nutrition and weight management guidelines](https://www.aaha.org/resources/2021-aaha-nutrition-and-weight-management-guidelines/) treat a nutritional assessment as part of a regular visit: body condition, muscle, the actual diet, and the calories. A perfect label fed at the wrong amount is still the wrong plan.
 
 The names in the table are examples of mainstream complete foods: Purina Pro Plan, Hill's Science Diet, Royal Canin size-specific lines, and Iams. They are listed because they are the sort of companies that publish adequacy statements and employ nutrition staff, which is the bar this page is willing to describe. They are not listed because this site ran a feeding trial, a palatability panel, or a stool-score study. Andrew Virts still has to open the current bags and confirm the listings. Until that TODO is cleared, treat the cards as a shopping checklist, not a winner's podium.
 

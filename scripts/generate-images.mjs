@@ -59,6 +59,19 @@ const pages = [
     plate: "FIG. 3.1 — APPETITE TIMELINE & PALATABILITY TRIAGE",
   },
   {
+    slug: "dog-food-for-picky-eaters",
+    bg: "#e4efe8",
+    panel: "#fbf8f2",
+    ink: "#1c1915",
+    darkInk: "#1c1915",
+    accent: "#1b4332",
+    secondary: "#9a6232",
+    clay: "#9a6232",
+    title: "One complete food, then stop",
+    kicker: "Canine Appetite · Format Guide",
+    plate: "FIG. 6.1 — COMPLETE DIET, ONE CHANGE, 10% EXTRAS",
+  },
+  {
     slug: "cat-pooping-outside-litter-box",
     bg: "#eee7da",
     panel: "#fbf8f2",
@@ -473,6 +486,46 @@ function heroArtwork(page) {
         </g>
       `;
 
+    case "dog-food-for-picky-eaters":
+      return `
+        <g transform="translate(88, 92)">
+          <rect x="0" y="0" width="480" height="450" rx="6" fill="#fbf8f2" stroke="#1b4332" stroke-width="2.5"/>
+          <text x="36" y="46" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#1b4332">SPECIMEN A — THE DAY'S CALORIES</text>
+          <line x1="36" y1="60" x2="444" y2="60" stroke="#d9d0c0" stroke-width="1.5"/>
+          <rect x="56" y="110" width="368" height="36" rx="4" fill="#1b4332"/>
+          <text x="240" y="134" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#fbf8f2">90% COMPLETE DIET</text>
+          <rect x="56" y="154" width="368" height="28" rx="4" fill="#9a6232"/>
+          <text x="240" y="173" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#fbf8f2">10% TREATS, TOPPERS, BROTH</text>
+          <path d="M150 250 L330 250 L312 310 C306 322, 292 328, 276 328 L204 328 C188 328, 174 322, 168 310 Z" fill="#1b4332"/>
+          <line x1="162" y1="274" x2="318" y2="274" stroke="#d8b268" stroke-width="2.5"/>
+          <text x="240" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1c1915">Warm the current food first.</text>
+          <text x="240" y="406" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#1b4332">A new protein is the last change.</text>
+        </g>
+        <g transform="translate(596, 92)">
+          <rect x="0" y="0" width="516" height="450" rx="6" fill="#fbf8f2" stroke="#1b4332" stroke-width="2.5"/>
+          <text x="36" y="46" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#9a6232">SPECIMEN B — ONE FORMAT AT A TIME</text>
+          <line x1="36" y1="60" x2="480" y2="60" stroke="#d9d0c0" stroke-width="1.5"/>
+          <g transform="translate(36, 88)">
+            <rect width="444" height="90" rx="4" fill="#e4efe8" stroke="#1b4332" stroke-width="1.5"/>
+            <text x="22" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1b4332">WET — SMELL AND TEXTURE</text>
+            <text x="22" y="58" font-family="Georgia, serif" font-size="15" fill="#1c1915">A complete can, or a small top-dress.</text>
+            <text x="22" y="78" font-family="Georgia, serif" font-size="14" fill="#1b4332">Count it. Do not hide a second diet.</text>
+          </g>
+          <g transform="translate(36, 194)">
+            <rect width="444" height="90" rx="4" fill="#fbf8f2" stroke="#9a6232" stroke-width="1.5"/>
+            <text x="22" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#9a6232">DRY — ONLY IF THE DOG WORKS</text>
+            <text x="22" y="58" font-family="Georgia, serif" font-size="15" fill="#1c1915">Performance kibble is calorie-dense.</text>
+            <text x="22" y="78" font-family="Georgia, serif" font-size="14" fill="#9a6232">A full couch dog does not need it.</text>
+          </g>
+          <g transform="translate(36, 300)">
+            <rect width="444" height="90" rx="4" fill="#f7efe4" stroke="#1b4332" stroke-width="1.5"/>
+            <text x="22" y="32" font-family="sans-serif" font-size="12" font-weight="bold" fill="#1b4332">FRESH — ONE RECIPE, THEN JUDGE</text>
+            <text x="22" y="58" font-family="Georgia, serif" font-size="15" fill="#1c1915">Read the adequacy statement first.</text>
+            <text x="22" y="78" font-family="Georgia, serif" font-size="14" fill="#1b4332">TODO until the current formula is checked.</text>
+          </g>
+        </g>
+      `;
+
     default:
       return "";
   }
@@ -622,6 +675,47 @@ const detailConfigs = {
           "Keep toppers & treats under 10% of daily calories",
         ],
         footer: "Avoid high-fat bacon/grease table scraps",
+      },
+    ],
+  },
+  "dog-food-for-picky-eaters": {
+    header: "FEEDING PROTOCOL — A HEALTHY DOG WHO NEGOTIATES DINNER",
+    steps: [
+      {
+        num: "STEP 01",
+        title: "Separate Illness First",
+        subtitle: "Choosy is not the same as sick",
+        bullets: [
+          "Puppy, weight loss, or vomiting: call",
+          "Dropping food can be a painful mouth",
+          "One skipped meal in a bright adult",
+          "Prescription diets stay with the clinic",
+        ],
+        footer: "Shop only after the dog is well",
+      },
+      {
+        num: "STEP 02",
+        title: "Cap the Extras",
+        subtitle: "Treats and toppers at 10%",
+        bullets: [
+          "Diary of every calorie for 3–5 days",
+          "Own kibble can be the training treat",
+          "No onion or garlic in the broth",
+          "A topper the dog sorts out is the meal",
+        ],
+        footer: "AAHA and VCA use the 10% ceiling",
+      },
+      {
+        num: "STEP 03",
+        title: "Change One Format",
+        subtitle: "Smell, then wet, then fresh",
+        bullets: [
+          "Warm the current complete food first",
+          "One wet food, life stage matched",
+          "Performance kibble is for working dogs",
+          "Skip grain-free as the default upgrade",
+        ],
+        footer: "Names below stay TODO until verified",
       },
     ],
   },

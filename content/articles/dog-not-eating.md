@@ -6,7 +6,7 @@ summary: "A dog not eating food needs a reason, not a buffet of toppers. One ski
 category: dogs
 kind: guide
 published: "2026-11-02"
-updated: "2026-11-02"
+updated: "2026-11-03"
 primaryKeyword: "dog not eating food"
 heroAlt: "Abstract illustration of a full bowl and an empty space beside it, in dark green and paper tones."
 detailAlt: "Diagram of a same-day clinic list beside a short list of home trials for a bright adult dog."
@@ -33,6 +33,7 @@ products:
     watchout: "This is a therapeutic food for specific situations. It is not a grocery topper for a picky healthy dog."
     note: "TODO: Andrew to verify the current name, feeding directions, and whether it should be linked at all for healthy picky dogs. Default is no."
 related:
+  - dog-food-for-picky-eaters
   - dog-food-for-diarrhea
   - dog-food-brands-to-avoid
 faqs:
@@ -147,7 +148,7 @@ Clinics get a better answer when you can say:
 
 That list beats a photo of six candidate bags. Buy a new food after someone has decided a new food is the right tool. The names lower on this page are not that decision. They are placeholders, including the instruction to try the current food first. Andrew Virts still has to confirm any commercial listing before it is a real link.
 
-If the dog eats the next meal and stays well, you may be done. If the dog keeps refusing, you are not looking at a picky-eater article yet. You are looking at a medical appointment. A future guide can cover true picky eaters who are healthy and just difficult. This page is for the dog who stopped.
+If the dog eats the next meal and stays well, you may be done. If the dog keeps refusing and seems sick, you are looking at a medical appointment. A healthy dog who has always been choosy is a different problem, covered in [dog food for picky eaters](/dog-food-for-picky-eaters/). This page is for the dog who stopped.
 
 ## Measure the food before you call the dog picky
 

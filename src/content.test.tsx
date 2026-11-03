@@ -7,12 +7,13 @@ import { documentTitle, staticPages } from "./site";
 import { articleSchema, faqSchema, itemListSchema } from "./seo";
 
 describe("articles", () => {
-  it("publishes the five launch guides", () => {
+  it("publishes the six guides", () => {
     expect(articles.map((article) => article.slug).sort()).toEqual([
       "cat-peeing-outside-litter-box",
       "cat-pooping-outside-litter-box",
       "dog-food-brands-to-avoid",
       "dog-food-for-diarrhea",
+      "dog-food-for-picky-eaters",
       "dog-not-eating",
     ]);
   });
