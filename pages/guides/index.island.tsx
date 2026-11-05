@@ -12,7 +12,7 @@ export default function GuidesPage({ articles }: { articles: ArticleCard[] }) {
     <PageShell
       kicker="Complete Publication Index · Issue 01"
       h1={page.h1}
-      lede="Six guides are drafted and live. Each monograph exceeds 1,500 words, cites primary veterinary and regulatory publications, and marks product examples for verification."
+      lede="Seven guides are drafted and live. Each monograph exceeds 1,500 words, cites primary veterinary and regulatory publications, and marks product examples for verification."
       crumbs={[
         { name: "Home", path: "/" },
         { name: "Guides", path: page.path },

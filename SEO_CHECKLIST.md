@@ -37,12 +37,12 @@ Core Web Vitals were inside the green range on that run (Lighthouse performance 
 
 JSON-LD is one `<script type="application/ld+json">` per page, built in `src/seo.ts`.
 
-| Page              | Types                                                                                        |
-| ----------------- | -------------------------------------------------------------------------------------------- |
-| Home              | Organization, WebSite. No search action, because there is no search URL.                     |
-| Articles          | BlogPosting (author Andrew Virts, `datePublished`, `dateModified`), BreadcrumbList, FAQPage. |
-| Roundups          | ItemList of named items. `kind: roundup` is the switch (brands, picky eaters). No stars.     |
-| Other inner pages | Organization and BreadcrumbList. The author page also has a ProfilePage.                     |
+| Page              | Types                                                                                                        |
+| ----------------- | ------------------------------------------------------------------------------------------------------------ |
+| Home              | Organization, WebSite. No search action, because there is no search URL.                                     |
+| Articles          | BlogPosting (author Andrew Virts, `datePublished`, `dateModified`), BreadcrumbList, FAQPage.                 |
+| Roundups          | ItemList of named items. `kind: roundup` is the switch (brands, picky eaters, sensitive stomachs). No stars. |
+| Other inner pages | Organization and BreadcrumbList. The author page also has a ProfilePage.                                     |
 
 There is no Product, Review, or `aggregateRating` schema. The content test fails if those strings appear.
 
@@ -59,7 +59,7 @@ There is no Product, Review, or `aggregateRating` schema. The content test fails
 
 ## Internal links
 
-Home, `/guides/`, `/dogs/`, and `/cats/` list the six live articles. Dog articles link across the digestion cluster, including picky eaters. The two cat articles link to each other. Each article has a related-guides block and breadcrumbs. Category hubs explain the cluster and name future topics without linking to URLs that do not exist. Header and footer cover the static pages, so none of those are orphans. `/404` is `noindex` and is the error document, not a sitemap URL.
+Home, `/guides/`, `/dogs/`, and `/cats/` list the seven live articles. Dog articles link across the digestion cluster, including picky eaters and sensitive stomachs. The two cat articles link to each other. Each article has a related-guides block and breadcrumbs. Category hubs explain the cluster and name future topics without linking to URLs that do not exist. Header and footer cover the static pages, so none of those are orphans. `/404` is `noindex` and is the error document, not a sitemap URL.
 
 ## Affiliate links
 
@@ -71,14 +71,14 @@ Home, `/guides/`, `/dogs/`, and `/cats/` list the six live articles. Dog article
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | `dist/client/sitemap.xml` | `scripts/seo-assets.mjs` at the end of `vp build`. Every URL has `lastmod`.                                                         |
 | `dist/client/robots.txt`  | Same script. Allows all crawlers and points at the sitemap.                                                                         |
-| `dist/client/feed.xml`    | RSS 2.0 for the six articles. Also linked from `<head>` as `rel="alternate"`.                                                       |
+| `dist/client/feed.xml`    | RSS 2.0 for the seven articles. Also linked from `<head>` as `rel="alternate"`.                                                     |
 | `dist/client/404.html`    | Prerendered `/404` page.                                                                                                            |
 | HTTPS                     | `routing.alwaysUseHttps` (308 on Cloudflare). HSTS header on responses. README tells Andrew to enable Always Use HTTPS on the zone. |
 | Security headers          | `void.config.ts` `routing.headers`: `nosniff`, `X-Frame-Options: DENY`, Referrer-Policy, Permissions-Policy, COOP, CSP, HSTS.       |
 
 ## Content
 
-The six drafts are specific answers (what to feed, which label checks matter, when a litter accident is an emergency, how to feed a healthy choosy dog). Paragraphs are short, with lists, a key-takeaways box, a comparison table, and FAQ. Word count is enforced at 1,500 or more in `src/content.test.tsx`. Product cards are labeled TODO. No test results are claimed.
+The seven drafts are specific answers (what to feed, which label checks matter, when a litter accident is an emergency, how to feed a healthy choosy dog, how to choose a food for a repeating sensitive stomach). Paragraphs are short, with lists, a key-takeaways box, a comparison table, and FAQ. Word count is enforced at 1,500 or more in `src/content.test.tsx`. Product cards are labeled TODO. No test results are claimed.
 
 ## Still Andrew's job after deploy
 

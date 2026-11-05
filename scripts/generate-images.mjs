@@ -72,6 +72,19 @@ const pages = [
     plate: "FIG. 6.1 — COMPLETE DIET, ONE CHANGE, 10% EXTRAS",
   },
   {
+    slug: "dog-food-for-sensitive-stomach",
+    bg: "#e7f0ea",
+    panel: "#fbf8f2",
+    ink: "#1c1915",
+    darkInk: "#1c1915",
+    accent: "#1b4332",
+    secondary: "#8c4a32",
+    clay: "#8c4a32",
+    title: "One digestible food, then judge it",
+    kicker: "Canine Digestion · Formula Guide",
+    plate: "FIG. 7.1 — DIGESTIBLE DIET, ONE CHANGE, CLINIC FIRST",
+  },
+  {
     slug: "cat-pooping-outside-litter-box",
     bg: "#eee7da",
     panel: "#fbf8f2",
@@ -526,6 +539,36 @@ function heroArtwork(page) {
         </g>
       `;
 
+    case "dog-food-for-sensitive-stomach":
+      return `
+        <g transform="translate(88, 92)">
+          <rect x="0" y="0" width="490" height="450" rx="6" fill="#fbf8f2" stroke="#1b4332" stroke-width="2.5"/>
+          <text x="36" y="46" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#1b4332">SPECIMEN A — THREE DIFFERENT JOBS</text>
+          <line x1="36" y1="60" x2="454" y2="60" stroke="#d9d0c0" stroke-width="1.5"/>
+          <rect x="36" y="88" width="418" height="88" rx="4" fill="#f7efe4" stroke="#8c4a32" stroke-width="1.5"/>
+          <text x="56" y="122" font-family="sans-serif" font-size="13" font-weight="bold" fill="#8c4a32">1. SICK TODAY</text>
+          <text x="56" y="148" font-family="Georgia, serif" font-size="16" fill="#1c1915">Clinic, then the diarrhea guide.</text>
+          <rect x="36" y="190" width="418" height="88" rx="4" fill="#e7f0ea" stroke="#1b4332" stroke-width="1.5"/>
+          <text x="56" y="224" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1b4332">2. REPEATING, AND WELL</text>
+          <text x="56" y="250" font-family="Georgia, serif" font-size="16" fill="#1c1915">One digestible complete food.</text>
+          <rect x="36" y="292" width="418" height="88" rx="4" fill="#fbf8f2" stroke="#1b4332" stroke-width="1.5"/>
+          <text x="56" y="326" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1b4332">3. SUSPECTED ALLERGY</text>
+          <text x="56" y="352" font-family="Georgia, serif" font-size="16" fill="#1c1915">Veterinary diet. No extras.</text>
+        </g>
+        <g transform="translate(606, 92)">
+          <rect x="0" y="0" width="506" height="450" rx="6" fill="#fbf8f2" stroke="#1b4332" stroke-width="2.5"/>
+          <text x="36" y="46" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#8c4a32">SPECIMEN B — WHAT THE BAG MUST SAY</text>
+          <line x1="36" y1="60" x2="470" y2="60" stroke="#d9d0c0" stroke-width="1.5"/>
+          <rect x="36" y="88" width="434" height="70" rx="4" fill="#1b4332"/>
+          <text x="253" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fbf8f2">AAFCO ADEQUACY FOR THE LIFE STAGE</text>
+          <rect x="36" y="174" width="434" height="70" rx="4" fill="#e7f0ea" stroke="#1b4332" stroke-width="1.5"/>
+          <text x="253" y="216" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1c1915">Lean protein, moderate fat, some fiber</text>
+          <rect x="36" y="260" width="434" height="70" rx="4" fill="#f7efe4" stroke="#8c4a32" stroke-width="1.5"/>
+          <text x="253" y="302" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1c1915">"Sensitive stomach" is not a profile</text>
+          <text x="253" y="390" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="1" fill="#1b4332">TODO UNTIL THE CURRENT BAG IS CHECKED</text>
+        </g>
+      `;
+
     default:
       return "";
   }
@@ -719,6 +762,47 @@ const detailConfigs = {
       },
     ],
   },
+  "dog-food-for-sensitive-stomach": {
+    header: "DECISION PROTOCOL — A DOG WITH A SENSITIVE STOMACH",
+    steps: [
+      {
+        num: "STEP 01",
+        title: "Rule Out a Sick Dog",
+        subtitle: "Shop only if the dog is well",
+        bullets: [
+          "Puppy, blood, or repeated vomiting: call",
+          "Weight loss or a dog who stopped eating",
+          "Acute loose stool uses the diarrhea guide",
+          "Pancreatitis history stays with the clinic",
+        ],
+        footer: "A slogan is not an exam",
+      },
+      {
+        num: "STEP 02",
+        title: "One Complete Food",
+        subtitle: "Digestible, then wait",
+        bullets: [
+          "Adequacy statement for the life stage",
+          "Lean protein, moderate fat, some fiber",
+          "Pull fatty scraps before a new bag",
+          "Do not rotate proteins while you watch",
+        ],
+        footer: "Judge stool, weight, and energy",
+      },
+      {
+        num: "STEP 03",
+        title: "Allergy Trial Is Separate",
+        subtitle: "Veterinary diet, nothing else",
+        bullets: [
+          "OTC limited ingredient is not the trial",
+          "8 to 12 weeks, then a food challenge",
+          "No treats, toppers, or flavored chews",
+          "Grain-free is not the default upgrade",
+        ],
+        footer: "Names below stay TODO until verified",
+      },
+    ],
+  },
   "cat-pooping-outside-litter-box": {
     header: "DIAGNOSTIC PROTOCOL — FELINE DEFECATION OUTSIDE THE LITTER TRAY",
     steps: [
@@ -894,9 +978,14 @@ const logo = `<?xml version="1.0" encoding="UTF-8"?>
   <path fill="#f6f2e8" d="M96 152h64l44 168 48-168h48l48 168 44-168h64l-68 232h-64l-48-164-48 164h-64z"/>
 </svg>`;
 
-await raster(logo, join(out, "logo.png"), "png", 512, 512);
+const onlySlug = process.env.IMAGE_SLUG;
+
+if (!onlySlug) {
+  await raster(logo, join(out, "logo.png"), "png", 512, 512);
+}
 
 for (const page of pages) {
+  if (onlySlug && page.slug !== onlySlug) continue;
   const hero1200 = heroSvg(page, 1200, 675);
   const hero800 = heroSvg(page, 800, 450);
   await raster(hero1200, join(out, `${page.slug}-hero-1200.avif`), "avif", 1200, 675);

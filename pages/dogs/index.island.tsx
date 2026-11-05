@@ -4,7 +4,6 @@ import { staticPages } from "../../src/site";
 import type { ArticleCard } from "../../src/types";
 
 const plannedDogTopics = [
-  "Best Dog Food for Sensitive Stomachs",
   "Best Dog Food for Allergies & Elimination Trials",
   "Best Dog Food for Sensitive Stomach and Diarrhea",
   "Puppy Food for Sensitive Stomachs",
@@ -21,7 +20,7 @@ export default function DogsPage({ articles }: { articles: ArticleCard[] }) {
     <PageShell
       kicker="Cluster 01 · Canine Digestion & Label Audits"
       h1={page.h1}
-      lede="This cluster is about what goes in the bowl when something is already wrong, and when a healthy dog will only negotiate dinner: loose stool, a skipped meal, a choosy eater, and foods that do not clear a basic label check."
+      lede="This cluster is about what goes in the bowl when something is already wrong, and when a healthy dog will only negotiate dinner: loose stool, a repeating sensitive stomach, a skipped meal, a choosy eater, and foods that do not clear a basic label check."
       crumbs={[
         { name: "Home", path: "/" },
         { name: "Dogs", path: page.path },
@@ -36,9 +35,12 @@ export default function DogsPage({ articles }: { articles: ArticleCard[] }) {
         ends. The <a href="/dog-food-for-diarrhea/">food for dogs with diarrhea</a> guide covers the
         first day or two. The <a href="/dog-not-eating/">dog not eating</a> guide covers appetite. A
         healthy dog who has always been choosy belongs in{" "}
-        <a href="/dog-food-for-picky-eaters/">dog food for picky eaters</a>. If the bag itself is
-        the question, use <a href="/dog-food-brands-to-avoid/">dog food brands to avoid</a> before
-        you chase a new marketing claim.
+        <a href="/dog-food-for-picky-eaters/">dog food for picky eaters</a>. A bright adult whose
+        soft stool or gas keeps returning belongs in{" "}
+        <a href="/dog-food-for-sensitive-stomach/">best dog food for sensitive stomachs</a>. If the
+        bag itself is the question, use{" "}
+        <a href="/dog-food-brands-to-avoid/">dog food brands to avoid</a> before you chase a new
+        marketing claim.
       </p>
       <p>
         None of these pages replace a clinic. Blood in the stool, repeated vomiting, a puppy, or a
@@ -47,9 +49,9 @@ export default function DogsPage({ articles }: { articles: ArticleCard[] }) {
 
       <h2>Planned guides in this cluster (not yet published)</h2>
       <p>
-        Later guides in this cluster will cover sensitive stomachs, allergies, puppies, seniors, raw
-        and freeze-dried foods, and grain-free diets. They are listed in the content plan and are
-        not linked until the drafts exist, so this hub does not send you to an empty URL:
+        Later guides in this cluster will cover allergies, puppies, seniors, raw and freeze-dried
+        foods, and grain-free diets. They are listed in the content plan and are not linked until
+        the drafts exist, so this hub does not send you to an empty URL:
       </p>
       <ul>
         {plannedDogTopics.map((topic) => (

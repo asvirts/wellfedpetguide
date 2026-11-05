@@ -17,6 +17,12 @@ const triageItems = [
     href: "/dog-not-eating/",
   },
   {
+    tag: "Dogs · Sensitive stomach",
+    symptom: "Soft stool or gas that keeps returning",
+    detail: "One digestible complete food for a well adult. Acute diarrhea is a different job.",
+    href: "/dog-food-for-sensitive-stomach/",
+  },
+  {
     tag: "Dogs · Choosy eater",
     symptom: "Healthy dog who negotiates dinner",
     detail: "Rule out illness, cap toppers at 10% of calories, then change one complete food.",
@@ -66,7 +72,7 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
           <dl className="hero-metrics" aria-label="Editorial standards summary">
             <div>
               <dt>Published Guides</dt>
-              <dd>6 monographs (1,500+ words each)</dd>
+              <dd>7 monographs (1,500+ words each)</dd>
             </div>
             <div>
               <dt>Primary Citations</dt>
@@ -123,13 +129,13 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
           <article className="cluster-card cluster-dogs">
             <div className="cluster-card-top">
               <span className="category-pill pill-dogs">Cluster 01 · Dogs</span>
-              <span className="cluster-count">4 Live Guides · 9 Planned</span>
+              <span className="cluster-count">5 Live Guides · 8 Planned</span>
             </div>
             <h2>Food for a specific problem</h2>
             <p>
-              Diarrhea, a skipped dinner, and the brands worth a harder look. Start with the symptom
-              in front of you, check whether a clinic visit comes first, and then inspect whether
-              the bag is part of the problem.
+              Diarrhea, a repeating sensitive stomach, a skipped dinner, and the brands worth a
+              harder look. Start with the symptom in front of you, check whether a clinic visit
+              comes first, and then inspect whether the bag is part of the problem.
             </p>
             <ul className="cluster-highlights">
               <li>
@@ -143,6 +149,9 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
               </li>
               <li>
                 <a href="/dog-food-for-picky-eaters/">Best Dog Food for Picky Eaters</a>
+              </li>
+              <li>
+                <a href="/dog-food-for-sensitive-stomach/">Best Dog Food for Sensitive Stomachs</a>
               </li>
             </ul>
             <a className="more" href="/dogs/">

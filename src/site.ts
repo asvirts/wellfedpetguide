@@ -40,7 +40,7 @@ export const staticPages = {
     path: "/dogs/",
     seoTitle: "Dog Food Guides",
     description:
-      "Dog food guides for diarrhea, a dog that will not eat, and brands to approach carefully. Written for owners, with sources and unverified product notes.",
+      "Dog food guides for diarrhea, sensitive stomachs, picky eaters, and brands to check. Written for owners, with sources and unverified product notes.",
     h1: "Dog food guides",
   },
   cats: {

@@ -18,10 +18,10 @@ export default function AboutPage() {
       </p>
       <h2>What the site will cover</h2>
       <p>
-        The first drafts are problem guides: diarrhea, a dog that will not eat, brands to treat
-        carefully, and cats that eliminate outside the box. Later articles will be roundups for
-        picky eaters, sensitive stomachs, allergies, puppies, seniors, raw and freeze-dried foods,
-        and litter boxes chosen for odor, multiple cats, or furniture.
+        Published guides cover diarrhea, a dog that will not eat, brands to treat carefully, picky
+        eaters, sensitive stomachs, and cats that eliminate outside the box. Later articles will be
+        roundups for allergies, puppies, seniors, raw and freeze-dried foods, and litter boxes
+        chosen for odor, multiple cats, or furniture.
       </p>
       <h2>What it is not</h2>
       <p>

@@ -38,6 +38,7 @@ products:
     watchout: "Several Royal Canin foods share similar names. The fiber and fat levels are not interchangeable."
     note: "TODO: Andrew to verify the exact canine gastrointestinal product and listing before any buying link is final."
 related:
+  - dog-food-for-sensitive-stomach
   - dog-food-brands-to-avoid
   - dog-not-eating
   - dog-food-for-picky-eaters
@@ -96,7 +97,7 @@ If your dog is also refusing the bowl entirely, read [dog not eating](/dog-not-e
 
 A useful home case looks boring. The dog trots over, drinks, and has one or a few loose stools without blood. The belly is soft. The gums are pink and moist. There is no repeated vomiting. You can name the likely trigger: a stolen napkin, a new chew, a stressful day, or a too-fast switch of foods.
 
-You do not need to diagnose the trigger to feed the dog sensibly. You do need to stop adding new variables. That means no cheese, no broth full of onion or garlic, no spicy leftovers, and no "sensitive stomach" bag grabbed off a shelf because the label uses the word diarrhea.
+You do not need to diagnose the trigger to feed the dog sensibly. You do need to stop adding new variables. That means no cheese, no broth full of onion or garlic, no spicy leftovers, and no "sensitive stomach" bag grabbed off a shelf because the label uses the word diarrhea. A dog who is already through the acute bout, and whose soft stool or gas keeps returning, is the [sensitive stomach guide](/dog-food-for-sensitive-stomach/).
 
 ## Food for dogs with diarrhea, for a day or two
 
@@ -165,6 +166,6 @@ If the stool never firms, or the dog loses weight, the next step is an exam, not
 
 ## What this page will not tell you
 
-It will not name a winning kibble. It will not quote a fake feeding trial. It will not tell you to buy a "sensitive stomach and diarrhea" bag because the phrase is in the keyword list. That search is real, and a later guide can cover it once the products are actually checked. Until then, the honest answer is the one above: stabilize the dog, feed something simple and temporary, and use the clinic when the episode is not simple.
+It will not name a winning kibble. It will not quote a fake feeding trial. It will not tell you to buy a "sensitive stomach and diarrhea" bag because the phrase is in the keyword list. That combined search is real, and a later guide can cover it once the products are actually checked. A dog who is already stable, and whose soft stool keeps returning, has a different page: [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). Until that later combined guide exists, the honest answer for an acute bout is the one above: stabilize the dog, feed something simple and temporary, and use the clinic when the episode is not simple.
 
 The comparison below is a checklist of categories. Every commercial name is a TODO for Andrew Virts. If you need a complete food tonight, call the clinic that already knows the dog and ask which gastrointestinal diet they stock. That answer beats any affiliate link.
