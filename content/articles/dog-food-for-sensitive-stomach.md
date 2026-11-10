@@ -42,6 +42,7 @@ related:
   - dog-food-brands-to-avoid
   - dog-food-for-picky-eaters
   - dog-not-eating
+  - dog-food-for-allergies
 faqs:
   - question: "What is the best dog food for a sensitive stomach?"
     answer: "For a bright adult, it is one complete food that is highly digestible: lean protein, a moderate fat level, and some fiber, with an AAFCO statement for that life stage. There is no single winner. Acute diarrhea, a puppy, and a suspected food allergy need a clinic plan, not the slogan on a bag."
@@ -135,7 +136,7 @@ Signs of food intolerance in dogs, as owners describe them, are repeating soft s
 
 The accurate test, on that same page, is a food trial: a hypoallergenic diet for 8 to 12 weeks, with no other foods, treats, supplements, or flavored preventives. If the signs go away, the old food is reintroduced. Signs that return within about a week of that challenge are what confirm the allergy. Blood, saliva, and hair tests do not do that job. VCA's [elimination-trial guide](https://vcahospitals.com/know-your-pet/implementing-an-elimination-challenge-diet-trial-dog) says those tests have called water and stuffed-animal fur allergic. Gut signs often ease sooner than skin signs. Many dogs look better by about the fifth week. The trial is still run long enough to mean something, and the challenge is what makes it a diagnosis. Stopping when the stool looks nicer tells you the new diet was easier. It does not name the ingredient.
 
-A dog who had one loose stool after the trash is not in this group. A dog whose itch and stool have been a problem for months might be. The clinic sorts those. A later guide on this site will cover dog food for allergies as its own page. Until that draft exists, the rule is the trial above, not a grain-free bag with "limited ingredient" on the front.
+A dog who had one loose stool after the trash is not in this group. A dog whose itch and stool have been a problem for months might be. The clinic sorts those. That trial has its own page: [best dog food for allergies](/dog-food-for-allergies/). The rule here is the same one. Use the veterinary diet, and leave a grain-free limited-ingredient bag for after a trigger is known.
 
 ## What to look for on the bag
 
@@ -175,7 +176,7 @@ Smaller meals, more than once a day, are a fair trial for a dog who gulps and th
 
 Hill's Prescription Diet i/d is the example of a veterinary gastrointestinal diet, the same category the diarrhea guide names alongside Purina Pro Plan Veterinary Diets EN and Royal Canin Gastrointestinal. These are complete clinical foods. They are not interchangeable with the over-the-counter bags that use a similar word. A veterinarian decides whether a highly digestible clinical diet belongs, including for some dogs whose signs have already run for weeks.
 
-A food allergy is a different prescription. VCA lists veterinary hydrolyzed diets, such as Hill's Prescription Diet z/d, Royal Canin hydrolyzed diets, and Purina Pro Plan Veterinary Diets HA, and veterinary novel-protein diets. Hydrolyzed protein is broken into pieces the immune system is less likely to recognize. A novel protein is one the dog has not eaten. VCA's elimination guide says to feed the therapeutic diet rather than an over-the-counter food with similar ingredients, because retail limited-ingredient diets can carry leftover protein from the line that ran before them. That cross-contact can keep the itch or the stool going and make the trial unreadable.
+A food allergy is a different prescription, covered in [best dog food for allergies](/dog-food-for-allergies/). VCA lists veterinary hydrolyzed diets, such as Hill's Prescription Diet z/d, Royal Canin hydrolyzed diets, and Purina Pro Plan Veterinary Diets HA, and veterinary novel-protein diets. Hydrolyzed protein is broken into pieces the immune system is less likely to recognize. A novel protein is one the dog has not eaten. VCA's elimination guide says to feed the therapeutic diet rather than an over-the-counter food with similar ingredients, because retail limited-ingredient diets can carry leftover protein from the line that ran before them. That cross-contact can keep the itch or the stool going and make the trial unreadable.
 
 During those weeks, nothing else crosses the dog's mouth. No chew with a flavor. No pill pocket. No bite of the other dog's dinner. VCA notes that flavored parasite preventives can wreck the trial, and that a topical or injectable product is a conversation with the clinic, not a switch you make from a blog. A home-cooked novel diet, if you go that way, has to be formulated by a veterinary nutritionist, with the supplement the recipe requires. This page will not print one.
 

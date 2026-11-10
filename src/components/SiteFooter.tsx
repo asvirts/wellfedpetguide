@@ -7,6 +7,7 @@ const clusterLinks = [
   { href: "/dog-food-for-diarrhea/", label: "What to Feed a Dog With Diarrhea" },
   { href: "/dog-food-brands-to-avoid/", label: "Dog Food Brands to Avoid" },
   { href: "/dog-food-for-sensitive-stomach/", label: "Best Dog Food for Sensitive Stomachs" },
+  { href: "/dog-food-for-allergies/", label: "Best Dog Food for Allergies" },
   { href: "/cat-peeing-outside-litter-box/", label: "Cat Peeing Outside the Box" },
 ];
 

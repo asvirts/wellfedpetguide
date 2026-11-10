@@ -42,6 +42,7 @@ related:
   - dog-food-brands-to-avoid
   - dog-not-eating
   - dog-food-for-picky-eaters
+  - dog-food-for-allergies
 faqs:
   - question: "What should I feed a dog with diarrhea on the first day?"
     answer: "If the dog is bright, drinking, and the stool is soft rather than bloody, many clinics start with water plus a bland, low-fat meal such as plain boiled chicken and rice, or a veterinary gastrointestinal diet if they have already recommended one. A puppy, a weak dog, or a dog with blood in the stool needs the clinic first."
@@ -97,7 +98,7 @@ If your dog is also refusing the bowl entirely, read [dog not eating](/dog-not-e
 
 A useful home case looks boring. The dog trots over, drinks, and has one or a few loose stools without blood. The belly is soft. The gums are pink and moist. There is no repeated vomiting. You can name the likely trigger: a stolen napkin, a new chew, a stressful day, or a too-fast switch of foods.
 
-You do not need to diagnose the trigger to feed the dog sensibly. You do need to stop adding new variables. That means no cheese, no broth full of onion or garlic, no spicy leftovers, and no "sensitive stomach" bag grabbed off a shelf because the label uses the word diarrhea. A dog who is already through the acute bout, and whose soft stool or gas keeps returning, is the [sensitive stomach guide](/dog-food-for-sensitive-stomach/).
+You do not need to diagnose the trigger to feed the dog sensibly. You do need to stop adding new variables. That means no cheese, no broth full of onion or garlic, no spicy leftovers, and no "sensitive stomach" bag grabbed off a shelf because the label uses the word diarrhea. A dog who is already through the acute bout, and whose soft stool or gas keeps returning, is the [sensitive stomach guide](/dog-food-for-sensitive-stomach/). Months of itch, ear infections, or paw licking with that stool is [best dog food for allergies](/dog-food-for-allergies/). That page is a veterinary diet trial, not this one- or two-day plan.
 
 ## Food for dogs with diarrhea, for a day or two
 

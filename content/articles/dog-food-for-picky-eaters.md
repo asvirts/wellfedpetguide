@@ -42,6 +42,7 @@ related:
   - dog-not-eating
   - dog-food-brands-to-avoid
   - dog-food-for-diarrhea
+  - dog-food-for-allergies
 faqs:
   - question: "Why is my dog a picky eater?"
     answer: "A healthy dog is often full from treats, or has learned that waiting produces a tastier offer. Dental pain, nausea, kidney disease, and arthritis can look identical. If the change is new, the dog is losing weight, or the dog looks sick, call a veterinarian before you shop."
@@ -113,7 +114,7 @@ VCA's page on [anorexia in dogs](https://vcahospitals.com/know-your-pet/anorexia
 
 The Merck manual's [introduction to digestive disorders of dogs](https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/introduction-to-digestive-disorders-of-dogs) treats a poor appetite as a common, nonspecific sign. North Carolina State's [note on picky eaters](https://hospital.cvm.ncsu.edu/services/small-animals/nutrition/picky-eaters/) tells owners to get help when a pet stops eating for more than two days, refuses even high-value food, drops food, or has low energy, vomiting, diarrhea, extra drooling, or a change in drinking. A bright adult who skips one meal and still acts well can be watched until the next meal. That wait does not apply to a puppy.
 
-If loose stool is the actual problem, use [what to feed a dog with diarrhea](/dog-food-for-diarrhea/). Shop this list when the dog is well. Repeating gas or soft stool in a dog who still eats is [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/).
+If loose stool is the actual problem, use [what to feed a dog with diarrhea](/dog-food-for-diarrhea/). Shop this list when the dog is well. Repeating gas or soft stool in a dog who still eats is [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). Itching, ear infections, or paw licking are a different pattern: [best dog food for allergies](/dog-food-for-allergies/).
 
 ## Why is my dog a picky eater?
 

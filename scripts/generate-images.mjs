@@ -85,6 +85,19 @@ const pages = [
     plate: "FIG. 7.1 — DIGESTIBLE DIET, ONE CHANGE, CLINIC FIRST",
   },
   {
+    slug: "dog-food-for-allergies",
+    bg: "#f3ebe3",
+    panel: "#fbf8f2",
+    ink: "#1c1915",
+    darkInk: "#1c1915",
+    accent: "#6e3b2e",
+    secondary: "#1b4332",
+    clay: "#6e3b2e",
+    title: "One veterinary diet, then the challenge",
+    kicker: "Canine Allergy · Formula Guide",
+    plate: "FIG. 8.1 — ELIMINATION DIET, ONE FOOD, THEN CHALLENGE",
+  },
+  {
     slug: "cat-pooping-outside-litter-box",
     bg: "#eee7da",
     panel: "#fbf8f2",
@@ -569,6 +582,36 @@ function heroArtwork(page) {
         </g>
       `;
 
+    case "dog-food-for-allergies":
+      return `
+        <g transform="translate(88, 92)">
+          <rect x="0" y="0" width="490" height="450" rx="6" fill="#fbf8f2" stroke="#6e3b2e" stroke-width="2.5"/>
+          <text x="36" y="46" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#6e3b2e">SPECIMEN A — THREE DIFFERENT ITCHES</text>
+          <line x1="36" y1="60" x2="454" y2="60" stroke="#d9d0c0" stroke-width="1.5"/>
+          <rect x="36" y="88" width="418" height="88" rx="4" fill="#f7efe4" stroke="#6e3b2e" stroke-width="1.5"/>
+          <text x="56" y="122" font-family="sans-serif" font-size="13" font-weight="bold" fill="#6e3b2e">1. FLEAS OR POLLEN</text>
+          <text x="56" y="148" font-family="Georgia, serif" font-size="16" fill="#1c1915">Clinic and flea control first.</text>
+          <rect x="36" y="190" width="418" height="88" rx="4" fill="#f3ebe3" stroke="#6e3b2e" stroke-width="1.5"/>
+          <text x="56" y="224" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1b4332">2. SUSPECTED FOOD ALLERGY</text>
+          <text x="56" y="250" font-family="Georgia, serif" font-size="16" fill="#1c1915">One veterinary diet, alone.</text>
+          <rect x="36" y="292" width="418" height="88" rx="4" fill="#fbf8f2" stroke="#1b4332" stroke-width="1.5"/>
+          <text x="56" y="326" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1b4332">3. TRIGGER ALREADY KNOWN</text>
+          <text x="56" y="352" font-family="Georgia, serif" font-size="16" fill="#1c1915">Then a short maintenance food.</text>
+        </g>
+        <g transform="translate(606, 92)">
+          <rect x="0" y="0" width="506" height="450" rx="6" fill="#fbf8f2" stroke="#6e3b2e" stroke-width="2.5"/>
+          <text x="36" y="46" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#1b4332">SPECIMEN B — WHAT THE TRIAL REQUIRES</text>
+          <line x1="36" y1="60" x2="470" y2="60" stroke="#d9d0c0" stroke-width="1.5"/>
+          <rect x="36" y="88" width="434" height="70" rx="4" fill="#6e3b2e"/>
+          <text x="253" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fbf8f2">HYDROLYZED OR TRULY NOVEL PROTEIN</text>
+          <rect x="36" y="174" width="434" height="70" rx="4" fill="#f3ebe3" stroke="#6e3b2e" stroke-width="1.5"/>
+          <text x="253" y="216" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1c1915">Eight weeks alone, then a challenge</text>
+          <rect x="36" y="260" width="434" height="70" rx="4" fill="#f7efe4" stroke="#6e3b2e" stroke-width="1.5"/>
+          <text x="253" y="302" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1c1915">Store "limited ingredient" is not the test</text>
+          <text x="253" y="390" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="1" fill="#6e3b2e">TODO UNTIL THE CURRENT BAG IS CHECKED</text>
+        </g>
+      `;
+
     default:
       return "";
   }
@@ -800,6 +843,47 @@ const detailConfigs = {
           "Grain-free is not the default upgrade",
         ],
         footer: "Names below stay TODO until verified",
+      },
+    ],
+  },
+  "dog-food-for-allergies": {
+    header: "DECISION PROTOCOL — ITCH THAT MIGHT BE A FOOD ALLERGY",
+    steps: [
+      {
+        num: "STEP 01",
+        title: "Rule Out Fleas First",
+        subtitle: "Food is the third allergic itch",
+        bullets: [
+          "Flea allergy and pollen come first",
+          "Treat ear and skin infection too",
+          "Puppy, swelling, or not eating: call",
+          "One loose stool uses the diarrhea guide",
+        ],
+        footer: "A new bag does not diagnose fleas",
+      },
+      {
+        num: "STEP 02",
+        title: "One Veterinary Diet",
+        subtitle: "Hydrolyzed, or truly novel",
+        bullets: [
+          "Fed alone for at least eight weeks",
+          "No treats, chews, or flavored meds",
+          "Store limited-ingredient is not the trial",
+          "Match the life stage on the bag",
+        ],
+        footer: "Names below stay TODO until verified",
+      },
+      {
+        num: "STEP 03",
+        title: "Challenge, Then Keep It",
+        subtitle: "Improvement is not the diagnosis",
+        bullets: [
+          "Old food returns under the clinic plan",
+          "A flare often shows in a few days",
+          "Then one protein at a time",
+          "Maintenance food avoids the trigger",
+        ],
+        footer: "There is no cure. Avoidance is the plan",
       },
     ],
   },

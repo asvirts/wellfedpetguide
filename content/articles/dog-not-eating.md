@@ -37,6 +37,7 @@ related:
   - dog-food-for-picky-eaters
   - dog-food-for-diarrhea
   - dog-food-brands-to-avoid
+  - dog-food-for-allergies
 faqs:
   - question: "Why is my dog not eating food?"
     answer: "Causes include nausea, pain, dental disease, stress, a recent diet change, and simply being less hungry than the bag suggests. Illness is common enough that a dog who seems sick should see a veterinarian rather than get a new flavor."
@@ -123,7 +124,7 @@ Switching foods can cause a dog to refuse the new bag, or to eat it and then fee
 
 A food that is stale, rancid, or bug-ridden is a simple fix: throw it out. Fat that has oxidized smells wrong to a dog even when it still smells faint to you. Store the bag closed, and do not keep an open sack in a hot garage.
 
-Prescription diets are a special case. If the dog is on a urinary, kidney, or hypoallergenic food and stops eating, call the clinic that prescribed it. Replacing it with a tasty grocery food can undo the treatment. A veterinary recovery diet such as a convalescent canned food is sometimes used in hospital. It is not the right secret weapon for a healthy dog who is lobbying for chicken. The card on this page says TODO for that reason.
+Prescription diets are a special case. If the dog is on a urinary or kidney diet, or on a [hypoallergenic food](/dog-food-for-allergies/) a clinic prescribed, and stops eating, call that clinic. Replacing it with a tasty grocery food can undo the treatment. A veterinary recovery diet such as a convalescent canned food is sometimes used in hospital. It is not the right secret weapon for a healthy dog who is lobbying for chicken. The card on this page says TODO for that reason.
 
 ## Toppers, and how they go wrong
 

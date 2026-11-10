@@ -19,8 +19,8 @@ export default function AboutPage() {
       <h2>What the site will cover</h2>
       <p>
         Published guides cover diarrhea, a dog that will not eat, brands to treat carefully, picky
-        eaters, sensitive stomachs, and cats that eliminate outside the box. Later articles will be
-        roundups for allergies, puppies, seniors, raw and freeze-dried foods, and litter boxes
+        eaters, sensitive stomachs, food allergies, and cats that eliminate outside the box. Later
+        articles will be roundups for puppies, seniors, raw and freeze-dried foods, and litter boxes
         chosen for odor, multiple cats, or furniture.
       </p>
       <h2>What it is not</h2>

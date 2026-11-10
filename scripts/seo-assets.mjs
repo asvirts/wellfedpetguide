@@ -4,14 +4,14 @@ import { parse as parseYaml } from "yaml";
 
 const SITE = "https://wellfedpetguide.com";
 const UPDATED = "2026-11-02";
-const CONTENT_UPDATED = "2026-11-05";
+const CONTENT_UPDATED = "2026-11-10";
 
 const staticPaths = [
   { path: "/", lastmod: CONTENT_UPDATED },
   { path: "/guides/", lastmod: CONTENT_UPDATED },
   { path: "/dogs/", lastmod: CONTENT_UPDATED },
   { path: "/cats/", lastmod: UPDATED },
-  { path: "/about/", lastmod: UPDATED },
+  { path: "/about/", lastmod: CONTENT_UPDATED },
   { path: "/author/andrew-virts/", lastmod: UPDATED },
   { path: "/editorial-policy/", lastmod: UPDATED },
   { path: "/affiliate-disclosure/", lastmod: UPDATED },
