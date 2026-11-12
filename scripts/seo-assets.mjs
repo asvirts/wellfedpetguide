@@ -4,7 +4,7 @@ import { parse as parseYaml } from "yaml";
 
 const SITE = "https://wellfedpetguide.com";
 const UPDATED = "2026-11-02";
-const CONTENT_UPDATED = "2026-11-10";
+const CONTENT_UPDATED = "2026-11-12";
 
 const staticPaths = [
   { path: "/", lastmod: CONTENT_UPDATED },

@@ -48,6 +48,7 @@ products:
     watchout: "Retail limited-ingredient foods can carry protein that is not on the label. Use this after the trial, not as the trial. Some recipes in the line are grain-free."
     note: "TODO: Andrew to read the current recipe, the adequacy statement, and whether that bag is grain-free. The shopping name is the claim to check."
 related:
+  - dog-food-sensitive-stomach-diarrhea
   - dog-food-for-sensitive-stomach
   - dog-food-for-diarrhea
   - dog-food-brands-to-avoid
@@ -128,7 +129,7 @@ Call, and treat what the clinic finds, before you reorder dinner:
 - The dog is a puppy, is losing weight, or has stopped eating. Appetite loss belongs with [dog not eating food](/dog-not-eating/).
 - The trouble is one or two days of loose stool after trash, a new chew, or a too-fast switch. That bout belongs on [what to feed a dog with diarrhea](/dog-food-for-diarrhea/).
 
-A bright adult whose soft stool or gas keeps returning, without this itch-and-ears pattern, is a different job. Use [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). A sensitive stomach is a description. A food allergy is a diagnosis you earn with a trial and a challenge.
+A bright adult whose soft stool or gas keeps returning, without this itch-and-ears pattern, is a different job. Use [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). If the stool itself is the reason you are shopping, including diarrhea that keeps coming back, use [best dog food for sensitive stomach and diarrhea](/dog-food-sensitive-stomach-diarrhea/). A sensitive stomach is a description. A food allergy is a diagnosis you earn with a trial and a challenge.
 
 ## Signs of a food allergy in dogs
 

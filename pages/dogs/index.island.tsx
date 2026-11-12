@@ -4,7 +4,6 @@ import { staticPages } from "../../src/site";
 import type { ArticleCard } from "../../src/types";
 
 const plannedDogTopics = [
-  "Best Dog Food for Sensitive Stomach and Diarrhea",
   "Puppy Food for Sensitive Stomachs",
   "Best Puppy Food for Large Breeds (Calcium & growth curve rules)",
   "Best Senior Dog Food",
@@ -36,8 +35,12 @@ export default function DogsPage({ articles }: { articles: ArticleCard[] }) {
         healthy dog who has always been choosy belongs in{" "}
         <a href="/dog-food-for-picky-eaters/">dog food for picky eaters</a>. A bright adult whose
         soft stool or gas keeps returning belongs in{" "}
-        <a href="/dog-food-for-sensitive-stomach/">best dog food for sensitive stomachs</a>. Itch,
-        ear infections, or a suspected food allergy belong in{" "}
+        <a href="/dog-food-for-sensitive-stomach/">best dog food for sensitive stomachs</a>. When
+        that pattern includes diarrhea you are shopping for, use{" "}
+        <a href="/dog-food-sensitive-stomach-diarrhea/">
+          best dog food for sensitive stomach and diarrhea
+        </a>
+        . Itch, ear infections, or a suspected food allergy belong in{" "}
         <a href="/dog-food-for-allergies/">best dog food for allergies</a>. If the bag itself is the
         question, use <a href="/dog-food-brands-to-avoid/">dog food brands to avoid</a> before you
         chase a new marketing claim.

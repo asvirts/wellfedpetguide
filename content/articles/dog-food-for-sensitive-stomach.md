@@ -38,6 +38,7 @@ products:
     watchout: "This is not the same food as the grocery Science Diet bag. A hydrolyzed allergy diet is a different prescription."
     note: "TODO: Andrew to confirm the current formula and that any listing is the veterinary diet, not the over-the-counter line. The clinic decides whether it belongs."
 related:
+  - dog-food-sensitive-stomach-diarrhea
   - dog-food-for-diarrhea
   - dog-food-brands-to-avoid
   - dog-food-for-picky-eaters
@@ -222,7 +223,7 @@ Give one food long enough to see a pattern. For a mild everyday change, several 
 
 Photograph the adequacy statement and the lot code. "The purple bag" will not help in a recall. Weigh the dog, or at least use the same scale at the clinic. The AAHA guidelines are about body condition over time. Use that, and the stool, as the scoreboard. This page will not invent a star rating.
 
-Stop and call if the dog vomits, develops diarrhea that does not settle, refuses both foods, or loses weight. Best dog food for sensitive stomach and diarrhea, as a combined shopping phrase, is a real search and a later guide. Until that page exists, an acute bout stays on the diarrhea guide. A dog who is already stable, and whose soft stool keeps returning between bouts, is the dog this page is for.
+Stop and call if the dog vomits, develops diarrhea that does not settle, refuses both foods, or loses weight. Best dog food for sensitive stomach and diarrhea, when that is the shopping question, has its own page: [best dog food for sensitive stomach and diarrhea](/dog-food-sensitive-stomach-diarrhea/). An acute bout still stays on the diarrhea guide. A dog who is already stable, and whose soft stool keeps returning between bouts, is the dog this page is for.
 
 Puppies are not small adults. A later guide will cover puppy food for sensitive stomachs. Until then, call. Do not fast a puppy, and do not promote an adult maintenance formula into the growth slot because an adult in the house tolerated it.
 

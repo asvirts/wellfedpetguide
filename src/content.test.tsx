@@ -7,7 +7,7 @@ import { documentTitle, staticPages } from "./site";
 import { articleSchema, faqSchema, itemListSchema } from "./seo";
 
 describe("articles", () => {
-  it("publishes the eight guides", () => {
+  it("publishes the nine guides", () => {
     expect(articles.map((article) => article.slug).sort()).toEqual([
       "cat-peeing-outside-litter-box",
       "cat-pooping-outside-litter-box",
@@ -16,6 +16,7 @@ describe("articles", () => {
       "dog-food-for-diarrhea",
       "dog-food-for-picky-eaters",
       "dog-food-for-sensitive-stomach",
+      "dog-food-sensitive-stomach-diarrhea",
       "dog-not-eating",
     ]);
   });

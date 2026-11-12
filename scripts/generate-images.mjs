@@ -98,6 +98,19 @@ const pages = [
     plate: "FIG. 8.1 — ELIMINATION DIET, ONE FOOD, THEN CHALLENGE",
   },
   {
+    slug: "dog-food-sensitive-stomach-diarrhea",
+    bg: "#e8f1ec",
+    panel: "#fbf8f2",
+    ink: "#1c1915",
+    darkInk: "#1c1915",
+    accent: "#1b4332",
+    secondary: "#8c4a32",
+    clay: "#8c4a32",
+    title: "Sort the stool, then the food",
+    kicker: "Canine Digestion · Formula Guide",
+    plate: "FIG. 9.1 — ACUTE BOUT, COMPLETE DIET, OR CLINIC",
+  },
+  {
     slug: "cat-pooping-outside-litter-box",
     bg: "#eee7da",
     panel: "#fbf8f2",
@@ -612,6 +625,36 @@ function heroArtwork(page) {
         </g>
       `;
 
+    case "dog-food-sensitive-stomach-diarrhea":
+      return `
+        <g transform="translate(88, 92)">
+          <rect x="0" y="0" width="490" height="450" rx="6" fill="#fbf8f2" stroke="#1b4332" stroke-width="2.5"/>
+          <text x="36" y="46" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#1b4332">SPECIMEN A — THREE DIFFERENT STOOLS</text>
+          <line x1="36" y1="60" x2="454" y2="60" stroke="#d9d0c0" stroke-width="1.5"/>
+          <rect x="36" y="88" width="418" height="88" rx="4" fill="#f7efe4" stroke="#8c4a32" stroke-width="1.5"/>
+          <text x="56" y="122" font-family="sans-serif" font-size="13" font-weight="bold" fill="#8c4a32">1. ONE SHORT BOUT</text>
+          <text x="56" y="148" font-family="Georgia, serif" font-size="16" fill="#1c1915">Water, then a bland bridge.</text>
+          <rect x="36" y="190" width="418" height="88" rx="4" fill="#e8f1ec" stroke="#1b4332" stroke-width="1.5"/>
+          <text x="56" y="224" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1b4332">2. SOFT STOOL RETURNS</text>
+          <text x="56" y="250" font-family="Georgia, serif" font-size="16" fill="#1c1915">One complete digestible food.</text>
+          <rect x="36" y="292" width="418" height="88" rx="4" fill="#fbf8f2" stroke="#1b4332" stroke-width="1.5"/>
+          <text x="56" y="326" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1b4332">3. MUCUS, URGENCY, WEEKS</text>
+          <text x="56" y="352" font-family="Georgia, serif" font-size="16" fill="#1c1915">Clinic diet. Not a grocery slogan.</text>
+        </g>
+        <g transform="translate(606, 92)">
+          <rect x="0" y="0" width="506" height="450" rx="6" fill="#fbf8f2" stroke="#1b4332" stroke-width="2.5"/>
+          <text x="36" y="46" font-family="sans-serif" font-size="12" font-weight="bold" letter-spacing="2" fill="#8c4a32">SPECIMEN B — WHAT NOT TO MIX</text>
+          <line x1="36" y1="60" x2="470" y2="60" stroke="#d9d0c0" stroke-width="1.5"/>
+          <rect x="36" y="88" width="434" height="70" rx="4" fill="#1b4332"/>
+          <text x="253" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#fbf8f2">BLAND FOOD IS NOT THE FOREVER DIET</text>
+          <rect x="36" y="174" width="434" height="70" rx="4" fill="#e8f1ec" stroke="#1b4332" stroke-width="1.5"/>
+          <text x="253" y="216" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1c1915">Fiber and low-residue are different jobs</text>
+          <rect x="36" y="260" width="434" height="70" rx="4" fill="#f7efe4" stroke="#8c4a32" stroke-width="1.5"/>
+          <text x="253" y="302" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1c1915">Stress colitis often eases in days</text>
+          <text x="253" y="390" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="1" fill="#1b4332">TODO UNTIL THE CURRENT BAG IS CHECKED</text>
+        </g>
+      `;
+
     default:
       return "";
   }
@@ -884,6 +927,47 @@ const detailConfigs = {
           "Maintenance food avoids the trigger",
         ],
         footer: "There is no cure. Avoidance is the plan",
+      },
+    ],
+  },
+  "dog-food-sensitive-stomach-diarrhea": {
+    header: "DECISION PROTOCOL — WHICH FOOD FOR THIS STOOL",
+    steps: [
+      {
+        num: "STEP 01",
+        title: "Sort the Stool",
+        subtitle: "Clock and pattern, then food",
+        bullets: [
+          "Blood, puppy, or vomiting: call",
+          "One short bout: bland, not a new bag",
+          "Mucus and straining: large bowel",
+          "Three weeks or weight loss: clinic",
+        ],
+        footer: "A slogan is not a diagnosis",
+      },
+      {
+        num: "STEP 02",
+        title: "Match One Job",
+        subtitle: "Do not crown a single bag",
+        bullets: [
+          "Bland food is incomplete. Stop soon",
+          "Well dog: one digestible complete food",
+          "Fiber is a colitis question, not a filter",
+          "Hydrolyzed food is the allergy page",
+        ],
+        footer: "Names below stay TODO until verified",
+      },
+      {
+        num: "STEP 03",
+        title: "Judge, Then Stop",
+        subtitle: "One change, then the stool",
+        bullets: [
+          "Switch over about a week",
+          "No new treats during the look",
+          "Stress colitis often eases in days",
+          "Not settling: fecal test, not bag three",
+        ],
+        footer: "Weight and stool are the scoreboard",
       },
     ],
   },

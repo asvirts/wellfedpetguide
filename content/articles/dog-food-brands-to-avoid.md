@@ -38,6 +38,7 @@ products:
     watchout: "Minis, adult, and senior bags are not substitutes for each other."
     note: "TODO: Andrew to confirm the current formula still carries a clear adequacy statement before the link is final."
 related:
+  - dog-food-sensitive-stomach-diarrhea
   - dog-food-for-sensitive-stomach
   - dog-food-for-diarrhea
   - dog-not-eating
@@ -130,7 +131,7 @@ Buy a food that passes the checks above and that your dog can actually eat. A he
 
 The names in the table are examples of mainstream complete foods: Purina Pro Plan, Hill's Science Diet, Royal Canin size-specific lines, and Iams. They are listed because they are the sort of companies that publish adequacy statements and employ nutrition staff, which is the bar this page is willing to describe. They are not listed because this site ran a feeding trial, a palatability panel, or a stool-score study. Andrew Virts still has to open the current bags and confirm the listings. Until that TODO is cleared, treat the cards as a shopping checklist, not a winner's podium.
 
-Match the life stage. An adult maintenance food is the usual target for a healthy grown dog. A dog with a diagnosed disease may need a veterinary diet instead, and that decision is the clinic's. If you are switching because of diarrhea, do the short bland-diet plan in the [diarrhea guide](/dog-food-for-diarrhea/) before you commit to a new everyday bag. A bright adult whose soft stool or gas keeps returning, and who is well enough that a food choice is fair, is [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). Itch, ears, or a suspected food allergy is [best dog food for allergies](/dog-food-for-allergies/), which starts with a veterinary diet rather than a short grocery ingredient list.
+Match the life stage. An adult maintenance food is the usual target for a healthy grown dog. A dog with a diagnosed disease may need a veterinary diet instead, and that decision is the clinic's. If you are switching because of diarrhea, do the short bland-diet plan in the [diarrhea guide](/dog-food-for-diarrhea/) before you commit to a new everyday bag. A bright adult whose soft stool or gas keeps returning, and who is well enough that a food choice is fair, is [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). When that pattern includes diarrhea you are trying to shop for, use [best dog food for sensitive stomach and diarrhea](/dog-food-sensitive-stomach-diarrhea/). Itch, ears, or a suspected food allergy is [best dog food for allergies](/dog-food-for-allergies/), which starts with a veterinary diet rather than a short grocery ingredient list.
 
 ## How to switch without creating a new problem
 

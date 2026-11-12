@@ -38,6 +38,7 @@ products:
     watchout: "Fresh food still has calories, still needs cold storage, and still upsets a gut if you switch overnight. Do not rotate a new recipe every week."
     note: "TODO: Andrew to confirm the current recipe, who formulated it, and the listing. Human grade is a handling claim, not a health result."
 related:
+  - dog-food-sensitive-stomach-diarrhea
   - dog-food-for-sensitive-stomach
   - dog-not-eating
   - dog-food-brands-to-avoid
@@ -114,7 +115,7 @@ VCA's page on [anorexia in dogs](https://vcahospitals.com/know-your-pet/anorexia
 
 The Merck manual's [introduction to digestive disorders of dogs](https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/introduction-to-digestive-disorders-of-dogs) treats a poor appetite as a common, nonspecific sign. North Carolina State's [note on picky eaters](https://hospital.cvm.ncsu.edu/services/small-animals/nutrition/picky-eaters/) tells owners to get help when a pet stops eating for more than two days, refuses even high-value food, drops food, or has low energy, vomiting, diarrhea, extra drooling, or a change in drinking. A bright adult who skips one meal and still acts well can be watched until the next meal. That wait does not apply to a puppy.
 
-If loose stool is the actual problem, use [what to feed a dog with diarrhea](/dog-food-for-diarrhea/). Shop this list when the dog is well. Repeating gas or soft stool in a dog who still eats is [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). Itching, ear infections, or paw licking are a different pattern: [best dog food for allergies](/dog-food-for-allergies/).
+If loose stool is the actual problem, use [what to feed a dog with diarrhea](/dog-food-for-diarrhea/). Shop this list when the dog is well. Repeating gas or soft stool in a dog who still eats is [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). If diarrhea is why you are choosing that food, use [best dog food for sensitive stomach and diarrhea](/dog-food-sensitive-stomach-diarrhea/). Itching, ear infections, or paw licking are a different pattern: [best dog food for allergies](/dog-food-for-allergies/).
 
 ## Why is my dog a picky eater?
 

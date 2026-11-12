@@ -23,6 +23,12 @@ const triageItems = [
     href: "/dog-food-for-sensitive-stomach/",
   },
   {
+    tag: "Dogs · Repeating stool",
+    symptom: "Diarrhea plus a sensitive stomach",
+    detail: "Sort one short bout from a complete food for a well dog whose soft stool returns.",
+    href: "/dog-food-sensitive-stomach-diarrhea/",
+  },
+  {
     tag: "Dogs · Allergies",
     symptom: "Itch, ears, or a suspected food allergy",
     detail: "A veterinary diet trial comes before a store limited-ingredient bag.",
@@ -78,7 +84,7 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
           <dl className="hero-metrics" aria-label="Editorial standards summary">
             <div>
               <dt>Published Guides</dt>
-              <dd>8 monographs (1,500+ words each)</dd>
+              <dd>9 monographs (1,500+ words each)</dd>
             </div>
             <div>
               <dt>Primary Citations</dt>
@@ -135,7 +141,7 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
           <article className="cluster-card cluster-dogs">
             <div className="cluster-card-top">
               <span className="category-pill pill-dogs">Cluster 01 · Dogs</span>
-              <span className="cluster-count">6 Live Guides · 7 Planned</span>
+              <span className="cluster-count">7 Live Guides · 6 Planned</span>
             </div>
             <h2>Food for a specific problem</h2>
             <p>
@@ -159,6 +165,11 @@ export default function HomePage({ articles }: { articles: ArticleCard[] }) {
               </li>
               <li>
                 <a href="/dog-food-for-sensitive-stomach/">Best Dog Food for Sensitive Stomachs</a>
+              </li>
+              <li>
+                <a href="/dog-food-sensitive-stomach-diarrhea/">
+                  Best Dog Food for Sensitive Stomach and Diarrhea
+                </a>
               </li>
               <li>
                 <a href="/dog-food-for-allergies/">Best Dog Food for Allergies</a>

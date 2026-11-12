@@ -38,6 +38,7 @@ products:
     watchout: "Several Royal Canin foods share similar names. The fiber and fat levels are not interchangeable."
     note: "TODO: Andrew to verify the exact canine gastrointestinal product and listing before any buying link is final."
 related:
+  - dog-food-sensitive-stomach-diarrhea
   - dog-food-for-sensitive-stomach
   - dog-food-brands-to-avoid
   - dog-not-eating
@@ -167,6 +168,6 @@ If the stool never firms, or the dog loses weight, the next step is an exam, not
 
 ## What this page will not tell you
 
-It will not name a winning kibble. It will not quote a fake feeding trial. It will not tell you to buy a "sensitive stomach and diarrhea" bag because the phrase is in the keyword list. That combined search is real, and a later guide can cover it once the products are actually checked. A dog who is already stable, and whose soft stool keeps returning, has a different page: [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). Until that later combined guide exists, the honest answer for an acute bout is the one above: stabilize the dog, feed something simple and temporary, and use the clinic when the episode is not simple.
+It will not name a winning kibble. It will not quote a fake feeding trial. A dog who is already stable, and whose soft stool keeps returning, has a different page: [best dog food for sensitive stomachs](/dog-food-for-sensitive-stomach/). When diarrhea and a sensitive stomach are the same shopping question, use [best dog food for sensitive stomach and diarrhea](/dog-food-sensitive-stomach-diarrhea/). The honest answer for an acute bout stays the one above: stabilize the dog, feed something simple and temporary, and use the clinic when the episode is not simple.
 
 The comparison below is a checklist of categories. Every commercial name is a TODO for Andrew Virts. If you need a complete food tonight, call the clinic that already knows the dog and ask which gastrointestinal diet they stock. That answer beats any affiliate link.
